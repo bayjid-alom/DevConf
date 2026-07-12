@@ -53,3 +53,13 @@ header nav .btn {
     background-color: #1D4ED8;
     font-weight: 600;
 }
+
+.hamburger {
+    display: none;
+}
+
+.hamburger {
+    border: 1px solid #ddddddd5;
+    padding: 2px;
+    border-radius: 4px;
+}

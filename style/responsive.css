@@ -1,0 +1,38 @@
+@media screen and (max-width:576px) {
+
+    :root {
+        --primary-color: rgba(87, 87, 87, 1);
+        --white-color: #FFFFFF;
+    }
+
+    #header {
+        background-color: rgba(255, 255, 255, 1);
+        padding: 18px 0;
+        border-bottom: 1px solid #d1d5db;
+    }
+
+    header .navbar {
+        max-width: 95%;
+    }
+
+    nav .nav-img-div {
+        max-width: 134px;
+    }
+
+    nav .nav-img-div img {
+        width: 100%;
+    }
+
+    header .nav-ul {
+        display: none;
+    }
+
+    header nav .btn {
+        display: none;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+}
