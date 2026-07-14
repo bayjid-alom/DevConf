@@ -13,6 +13,12 @@
 #header {
     background-color: rgba(255, 255, 255, 1);
     padding: 23px 0;
+
+    /* to fixed navbar*/
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 10;
 }
 
 header .navbar {
@@ -62,4 +68,46 @@ header nav .btn {
     border: 1px solid #ddddddd5;
     padding: 2px;
     border-radius: 4px;
+}
+
+
+
+/* Banner Related Styles */
+
+#banner-section {
+    padding: 136px 0 79px 0;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), url("../assets/banner.jpg");
+}
+
+.banner-container {
+    max-width: 960px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.banner-container h2 {
+    font-size: 80px;
+    font-weight: 700;
+    color: var(--white-color);
+    margin-bottom: 16px;
+    line-height: 80px;
+}
+
+.banner-container p {
+    font-size: 22px;
+    color: rgba(255, 255, 255, 0.9);
+    margin-bottom: 16px;
+    line-height: px;
+    margin-bottom: 278px;
+}
+
+
+.banner-container button {
+    font-size: 16px;
+    padding: 18px 50px;
+    border: none;
+    border-radius: 6px;
+    color: var(--white-color);
+    background-color: #1D4ED8;
+    font-weight: 600;
 }
