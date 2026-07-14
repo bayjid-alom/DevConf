@@ -36,47 +36,34 @@
     }
 
 
-    
-/* Banner Related Styles */
-
-#banner-section {
-    padding: 50px 0 25px 0;
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), url("../assets/banner.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    min-height: 350px;
-}
-
-.banner-container {
-    max-width: 95%;
-}
-
-.banner-container h2 {
-    font-size: 45px;
-    font-weight: 700;
-    color: var(--white-color);
-    margin-bottom: 16px;
-    line-height: 80px;
-}
-
-.banner-container p {
-    font-size: 17px;
-    color: rgba(255, 255, 255, 0.9);
-    margin-bottom: 16px;
-    line-height: px;
-    margin-bottom: 30px;
-}
 
 
-.banner-container button {
-    font-size: 16px;
-    padding: 12px 40px;
-    border: none;
-    border-radius: 6px;
-    color: var(--white-color);
-    background-color: #1D4ED8;
-    font-weight: 600;
-}
+    /* Banner Section */
+
+    #banner-section {
+        padding: 60px 20px 40px;
+        min-height: 450px;
+    }
+
+    .banner-container {
+        max-width: 95%;
+    }
+
+    .banner-container h2 {
+        font-size: 42px;
+        line-height: 48px;
+        margin-bottom: 12px;
+    }
+
+    .banner-container p {
+        font-size: 16px;
+        line-height: 24px;
+        margin-bottom: 30px;
+    }
+
+    .banner-container button {
+        font-size: 15px;
+        padding: 12px 35px;
+    }
 
 }
