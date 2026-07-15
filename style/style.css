@@ -50,10 +50,10 @@ header .nav-ul .nav-li {
     line-height: 26px;
 
     transition: .3s;
-   
+
 }
 
-header .nav-ul .nav-li:hover{
+header .nav-ul .nav-li:hover {
     transform: scale(1.10);
     color: #1D4ED8;
 }
@@ -122,4 +122,88 @@ header nav .btn {
     color: var(--white-color);
     background-color: #1D4ED8;
     font-weight: 600;
+}
+
+
+
+
+/* Speaker section */
+
+
+#speakers {
+    max-width: 85%;
+    margin: 0 auto;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+#speakers .heading h2 {
+    font-size: 56px;
+    font-weight: 700;
+    color: #000102;
+    margin-bottom: 56px;
+    text-align: center;
+}
+
+
+
+.speakers-card-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 33px;
+}
+
+.spearker-card {
+    border: 1px solid rgba(128, 128, 128, 0.521);
+    border-radius: 8px;
+    max-width: 662px;
+    overflow: hidden;
+    /* box-shadow: 0 6px 18px 0 rgba(0, 0, 0, 0.2); */
+}
+
+
+
+.spearker-card .content {
+    padding: 24px;
+}
+
+.spearker-card .img {
+    height: 324px;
+    overflow: hidden;
+}
+
+.spearker-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.4s ease;
+
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+
+}
+
+.spearker-card:hover img {
+    transform: scale(1.05);
+}
+
+.spearker-card p {
+    margin-top: 24px;
+    color: #2563EB;
+    margin-bottom: 8px;
+    font-weight: 600;
+}
+
+.spearker-card h2 {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 8px;
+    color: #0D1B2A;
+}
+
+.spearker-card h4 {
+    font-size: 14px;
+    line-height: 24px;
+    color: #575757;
 }
