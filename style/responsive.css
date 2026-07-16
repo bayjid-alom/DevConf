@@ -66,4 +66,85 @@
         padding: 12px 35px;
     }
 
+
+    /* Speaker section */
+
+
+    #speakers {
+        max-width: 94%;
+        margin: 0 auto;
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+
+    #speakers .heading h2 {
+        font-size: 38px;
+        font-weight: 700;
+        color: #000102;
+        margin-bottom: 56px;
+        text-align: center;
+    }
+
+
+
+    .speakers-card-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 33px;
+    }
+
+    .spearker-card {
+        border: 1px solid #E5E7EB;
+        border-radius: 8px;
+        max-width: 662px;
+        overflow: hidden;
+    }
+
+
+
+    .spearker-card .content {
+        padding: 18px;
+    }
+
+    .spearker-card .img {
+        height: 250px;
+        overflow: hidden;
+    }
+
+    .spearker-card img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+        transition: transform 0.4s ease;
+
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+
+    }
+
+    .spearker-card:hover img {
+        transform: scale(1.05);
+    }
+
+    .spearker-card p {
+        margin-top: 18px;
+        color: #2563EB;
+        margin-bottom: 8px;
+        font-weight: 600;
+    }
+
+    .spearker-card h2 {
+        font-size: 20px;
+        font-weight: 700;
+        margin-bottom: 8px;
+        color: #0D1B2A;
+    }
+
+    .spearker-card h4 {
+        font-size: 14px;
+        line-height: 24px;
+        color: #575757;
+    }
+
 }
