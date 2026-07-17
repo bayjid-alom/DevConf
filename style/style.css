@@ -134,7 +134,7 @@ header nav .btn {
     max-width: 85%;
     margin: 0 auto;
     margin-top: 80px;
-    margin-bottom: 80px;
+    margin-bottom: 170px;
 }
 
 #speakers .heading h2 {
@@ -205,4 +205,42 @@ header nav .btn {
     font-size: 14px;
     line-height: 24px;
     color: #575757;
+}
+
+
+
+
+/* Pricing card section styles */
+
+#pricing-section{
+    max-width: 75%;
+    border: 1px solid #1D4ED8;
+    margin: 0 auto;
+    margin-bottom: 130px;
+}
+
+#pricing-section .pricing-heading{
+    text-align: center;
+    border: 1px solid red;
+    margin-bottom: 48px;
+}
+
+#pricing-section .pricing-heading h2 {
+    font-size: 56px;
+    font-weight: 700;
+    color: #000102;
+    margin-bottom: 14px;
+    text-align: center;
+}
+
+#pricing-section .pricing-heading p{
+    font-size: 16px;
+    color:#575757;
+}
+
+
+
+#pricing-section .pricing-card-container{
+    border: 3px solid black;
+    padding: 100px;
 }
