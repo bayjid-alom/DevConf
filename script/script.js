@@ -10,8 +10,22 @@ speakerBtn.addEventListener("click", function () {
 const homeBtn = document.getElementById("home-li-btn");
 homeBtn.addEventListener("click", function () {
     const homeSection = document.getElementById("banner-section");
-    
+
     homeSection.scrollIntoView({
         behavior: "smooth"
     })
+})
+
+
+const regBtn = document.querySelector("header nav .btn");
+regBtn.style.transition = "background-color 0.3s ease, transform 0.3s ease";
+
+regBtn.addEventListener("mouseenter", function () {
+    regBtn.style.backgroundColor = "#1d4fd8e7"
+    regBtn.style.transform = "scale(1.03)";
+})
+
+regBtn.addEventListener("mouseleave", function () {
+    regBtn.style.backgroundColor = "#1D4ED8"
+    regBtn.style.transform = "scale(1)";
 })
