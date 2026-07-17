@@ -60,11 +60,6 @@ open index.html
 
 or simply double-click `index.html` in your browser.
 
----
-
-## 📸 Preview
-
-<img width="100%" src="https://bayjid-alom.github.io/DevConf/" alt="DevConf Website Preview">
 
 ---
 
