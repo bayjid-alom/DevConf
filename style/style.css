@@ -212,14 +212,14 @@ header nav .btn {
 
 /* Pricing card section styles */
 
-#pricing-section{
+#pricing-section {
     max-width: 75%;
     border: 1px solid #1D4ED8;
     margin: 0 auto;
     margin-bottom: 130px;
 }
 
-#pricing-section .pricing-heading{
+#pricing-section .pricing-heading {
     text-align: center;
     border: 1px solid red;
     margin-bottom: 48px;
@@ -233,14 +233,60 @@ header nav .btn {
     text-align: center;
 }
 
-#pricing-section .pricing-heading p{
+#pricing-section .pricing-heading p {
     font-size: 16px;
-    color:#575757;
+    color: #575757;
 }
 
 
 
-#pricing-section .pricing-card-container{
+#pricing-section .pricing-card-container {
     border: 3px solid black;
     padding: 100px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}
+
+
+#pricing-section .pricing-card {
+    border: 1px solid red;
+    border-radius: 6px;
+    max-width: 370px;
+    padding: 32px;
+}
+
+#pricing-section .pricing-card .last-part li {
+    list-style-type: none;
+}
+
+.middot {
+    width: 6px;
+    height: 6px;
+    background-color: blue;
+    border-radius: 50%;
+}
+
+.pricing-li-item {
+    display: flex;
+    justify-content: start;
+    gap: 6px;
+    align-items: center;
+}
+
+.pricing-card .first-part {
+    min-height: 117px;
+}
+
+.pricing-card .first-part h4 {
+    font-size:13px ;
+    font-weight: 600;
+}
+
+.pricing-card .card-breaker{
+    margin: 20px 0;
+}
+
+.pricing-li-item p{
+    font-size: 14px;
 }
