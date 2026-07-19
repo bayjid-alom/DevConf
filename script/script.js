@@ -16,6 +16,13 @@ homeBtn.addEventListener("click", function () {
     })
 })
 
+const ticketBtn = document.getElementById("tickets");
+ticketBtn.addEventListener("click", function () {
+    document.getElementById("pricing-section").scrollIntoView({
+        behavior: "smooth"
+    })
+})
+
 
 const regBtn = document.querySelector("header nav .btn");
 regBtn.style.transition = "background-color 0.3s ease, transform 0.3s ease";
