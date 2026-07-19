@@ -256,6 +256,12 @@ header nav .btn {
     max-width: 370px;
     padding: 32px;
     background-color: #FFFFFF;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.pricing-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 6px 18px 0 rgba(0, 0, 0, 0.2);
 }
 
 
