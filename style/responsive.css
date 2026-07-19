@@ -7,7 +7,7 @@
 
     #header {
         background-color: rgba(255, 255, 255, 1);
-        padding: 18px 0;
+        padding: 15px 0;
         border-bottom: 1px solid #d1d5db;
     }
 
@@ -145,6 +145,49 @@
         font-size: 14px;
         line-height: 24px;
         color: #575757;
+    }
+
+
+
+    /* Pricing card section */
+
+    #pricing-section {
+        max-width: 90%;
+        margin-bottom: 80px;
+    }
+
+    #pricing-section .pricing-heading {
+        margin-bottom: 32px;
+    }
+
+    #pricing-section .pricing-heading h2 {
+        font-size: 36px;
+    }
+
+    #pricing-section .pricing-heading p {
+        font-size: 14px;
+    }
+
+    #pricing-section .pricing-card-container {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    #pricing-section .pricing-card {
+        max-width: 100%;
+        padding: 24px;
+    }
+
+    .pricing-card .first-part {
+        min-height: auto;
+    }
+
+    .pricing-card .first-part h2 {
+        font-size: 36px;
+    }
+
+    .pricing-card .pricing-btn {
+        margin-top: 24px;
     }
 
 }
