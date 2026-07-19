@@ -214,14 +214,15 @@ header nav .btn {
 
 #pricing-section {
     max-width: 75%;
-    border: 1px solid #1D4ED8;
+    /* border: 1px solid #1D4ED8; */
     margin: 0 auto;
     margin-bottom: 130px;
+
 }
 
 #pricing-section .pricing-heading {
     text-align: center;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin-bottom: 48px;
 }
 
@@ -241,28 +242,29 @@ header nav .btn {
 
 
 #pricing-section .pricing-card-container {
-    border: 1px solid black;
-
+    /* border: 1px solid black; */
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 24px;
+    justify-content: center;
 }
 
 
 #pricing-section .pricing-card {
     border: 1px solid #E5E7EB;
-    border-radius: 6px;
+    border-radius: 12px;
     max-width: 370px;
     padding: 32px;
+    background-color: #FFFFFF;
 }
+
+
 
 #pricing-section .pricing-card .last-part li {
     list-style-type: none;
 }
 
-.pricing-card .first-part h4{
-
-}
+.pricing-card .first-part h4 {}
 
 .middot {
     width: 6px;
@@ -321,14 +323,52 @@ header nav .btn {
 
 .pricing-card .pricing-btn {
     width: 100%;
-    padding: 11px;
+    padding: 13px;
     font-size: 13px;
     margin-top: 32px;
-    font-weight: 600;
+    font-weight: 700;
     text-align: center;
     border: 1px solid #2563EB;
     background-color: white;
     border-radius: 7px;
     cursor: pointer;
     color: #1D4ED8;
+}
+
+.pricing-card-container #pricing-card-three {
+    background-color: rgba(248, 249, 251, 1);
+
+}
+
+.pricing-card-container #pricing-card-three .pricing-btn {
+    border: 1px solid #0D1B2A;
+    color: #0D1B2A;
+}
+
+
+.pricing-card-container #pricing-card-two {
+    background-color: rgba(13, 27, 42, 1);
+}
+
+.pricing-card-container #pricing-card-two .pricing-btn {
+    background-color: rgba(37, 99, 235, 1);
+    color: white;
+
+}
+
+.pricing-card-container #pricing-card-two .first-part h4 {
+    color: #155aee;
+}
+
+.pricing-card-container #pricing-card-two .first-part h2 {
+    color: white;
+}
+
+.pricing-card-container #pricing-card-two .first-part .card-breaker {
+    background-color: #e5e7eb2f;
+}
+
+
+.pricing-card-container #pricing-card-two .last-part p {
+    color: rgba(255, 255, 255, 0.8);
 }
