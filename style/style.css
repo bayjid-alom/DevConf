@@ -117,18 +117,18 @@ header nav .btn {
 .banner-container button {
     font-size: 16px;
     padding: 18px 50px;
-    border: none;
+    border: 1px solid black;
     border-radius: 6px;
     color: var(--white-color);
     background-color: #1D4ED8;
     font-weight: 600;
+
 }
 
 
 
 
 /* Speaker section */
-
 
 #speakers {
     max-width: 85%;
