@@ -378,3 +378,33 @@ header nav .btn {
 .pricing-card-container #pricing-card-two .last-part p {
     color: rgba(255, 255, 255, 0.8);
 }
+
+
+
+#genarate-section {
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 235px;
+    border: 3px dashed #7C3AED;
+    border-radius: 14px;
+    background-color: rgba(237, 233, 254, 1);
+    margin-bottom: 170px;
+}
+
+.genarate-div {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.genarate-div h2 {
+    font-size: 63px;
+    font-weight: 700;
+    color: #7C3AED;
+    margin-bottom: 16px;
+}
+
+.genarate-div h3 {
+    font-size: 41px;
+    font-weight: 700;
+    color: #9F67EA;
+}
