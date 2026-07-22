@@ -190,4 +190,32 @@
         margin-top: 24px;
     }
 
+
+
+    /* Genarate section */
+
+    #genarate-section {
+        max-width: 94%;
+        margin: 0 auto;
+        padding: 55px 20px;
+        border: 2px dashed #7C3AED;
+        border-radius: 12px;
+        background-color: rgba(237, 233, 254, 1);
+        margin-bottom: 90px;
+    }
+
+
+    .genarate-div h2 {
+        font-size: 30px;
+        font-weight: 700;
+        color: #7C3AED;
+        margin-bottom: 14px;
+    }
+
+    .genarate-div h3 {
+        font-size: 22px;
+        font-weight: 700;
+        color: #9F67EA;
+    }
+
 }
