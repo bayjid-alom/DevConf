@@ -197,7 +197,7 @@
     #genarate-section {
         max-width: 94%;
         margin: 0 auto;
-        padding: 55px 20px;
+        padding: 75px 20px;
         border: 2px dashed #7C3AED;
         border-radius: 12px;
         background-color: rgba(237, 233, 254, 1);
@@ -216,6 +216,32 @@
         font-size: 22px;
         font-weight: 700;
         color: #9F67EA;
+    }
+
+
+
+    /* Footer related styles */
+
+
+    .footer-container {
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+    }
+
+    .footer-container .text {
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+    }
+
+    .footer-container p {
+        font-size: 14px;
+        line-height: 1.6;
+    }
+
+    footer {
+        padding: 40px 0;
     }
 
 }

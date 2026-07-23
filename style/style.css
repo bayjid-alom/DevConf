@@ -413,6 +413,9 @@ header nav .btn {
 }
 
 
+
+/* Footer related Styles */
+
 footer {
     background-color: rgba(13, 27, 42, 1);
     padding: 56px 0 70px 0;
@@ -432,9 +435,9 @@ footer {
     gap: 20px;
 }
 
-.footer-container p{
+.footer-container p {
     font-size: 16px;
     color: rgba(255, 255, 255, 0.4);
     line-height: 20px;
-  
+
 }
